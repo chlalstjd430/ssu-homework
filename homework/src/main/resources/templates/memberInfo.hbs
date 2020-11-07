@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>글로벌미디어학부 20152532 최민성</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--부트스트랩 css 추가-->
+    <link rel="stylesheet" href="/css/lib/bootstrap.min.css">
+</head>
+<body>
+
+<div class="col-md-12">
+    <h1>글로벌미디어학부 20152532 최민성 - 사용자 등록 종료</h1>
+
+    <!-- 목록 출력 영역 -->
+    <table class="table table-horizontal table-bordered">
+        <thead class="thead-strong">
+        <tr>
+            <th>사용자ID</th>
+            <th>사용자명</th>
+            <th>비밀번호</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td>{{member.identification}}</td>
+                <td>{{member.name}}</td>
+                <td>{{member.password}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<!--부트스트랩 js, jquery 추가-->
+<script src="/js/lib/jquery.min.js"></script>
+<script src="/js/lib/bootstrap.min.js"></script>
+
+<!--custom js 추가-->
+<script src="/js/app/main.js"></script>
+
+</body>
+</html>
